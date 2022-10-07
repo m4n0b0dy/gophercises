@@ -1,0 +1,7 @@
+CREATE DATABASE testing;
+CREATE TABLE phone_numbers (
+	id VARCHAR ( 500 ) PRIMARY KEY,
+	phone_number VARCHAR ( 50 ) UNIQUE NOT NULL,
+	created_at BIGINT,
+	updated_at BIGINT
+);
